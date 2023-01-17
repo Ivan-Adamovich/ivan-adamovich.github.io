@@ -7,6 +7,10 @@ window.addEventListener('DOMContentLoaded', () => {
     
     openMenuBtn.addEventListener('click', menuShow);
     closeMenuBtn.addEventListener('click', menuClose);
+   
+    menuLinks.forEach(linck => {
+        linck.addEventListener('click', menuClose);
+    });
 
     function menuShow(){
         menu.style.opacity = '1';
