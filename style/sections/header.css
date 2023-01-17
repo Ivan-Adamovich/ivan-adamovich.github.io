@@ -1,0 +1,6 @@
+.header{
+	background-color: var(--green);
+	border-radius: 1em;
+	padding: 4rem 0;
+	color: var(--black);
+}

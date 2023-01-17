@@ -1,0 +1,49 @@
+.about{
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+	padding-top: 3rem;
+}
+
+.about_inner{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.about_txt_inner{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.about_txt{
+	width: 60%;
+    padding: 0 0 0 2rem;
+}
+
+.about_slider{
+	width: 40%;
+}
+
+.slider{
+	overflow: hidden;
+	margin: 1rem;
+	margin: 0 auto;
+}
+
+.slider_line{
+	display: flex;
+	transition: all 0.25s linear;
+}
+
+.slider_btns{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.my_photo{
+	border-radius: 1rem;
+}

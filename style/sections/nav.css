@@ -1,0 +1,48 @@
+nav{
+	position: relative;
+	width: 100%;
+	background-color: var(--black);
+	z-index: 1000;
+}
+
+.nav-bar{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.menu_drop{
+	position: absolute;
+	top: 5rem;
+	background-color: var(--black);
+	border-radius: 0 0 2rem 2rem;
+	opacity: 0;
+	z-index: -1000;
+	transition: all 0.2s linear;
+}
+
+.menu_item{
+	display: none;
+    margin: 2rem;
+}
+
+.menu_item a{
+	color: var(--white);
+	transition: all 0.2s linear;
+}
+
+.menu_item a:hover{
+	color: var(--yellow);
+}
+
+.contacts_btns{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 700;
+	letter-spacing: 0.2em;
+}

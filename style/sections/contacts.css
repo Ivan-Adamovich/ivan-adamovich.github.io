@@ -1,0 +1,42 @@
+.contacts{
+	background-color: var(--green);
+	margin-top: 0;
+	padding: 4rem 0;
+	color:var(--black);
+}
+
+.contacts_content{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.contacts_list_child{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: start; 
+	align-items: center;
+}
+
+.contacts_list_child h4{
+	margin-left: 0.5rem;
+}
+
+.contacts_list_child a{
+	margin-left: 0.5rem;
+	color:var(--black);
+	transition: all 0.2s linear;
+}
+
+.contacts_list_child a:hover{
+	color:var(--yellow);
+}
+
+.contacts_inner{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	margin-bottom: 2rem;
+	color:var(--black);
+}

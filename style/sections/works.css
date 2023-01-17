@@ -1,0 +1,47 @@
+.work{
+	background-color: var(--white);
+	border-radius: 1rem 1rem 0 0;
+	padding: 4rem 0;
+	color: var(--black)
+}
+
+.work_item{
+	display: block;
+	background-color: var(--green);
+	border-radius: 1rem;
+	max-width: 100%;
+	color: var(--white);
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center; 
+	align-items: start;
+}
+
+.work_number{
+	background-color: var(--black);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin: 1rem;
+}
+
+.work_content{
+	background-color: var(--black);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	width: 100%;
+}
+
+.work_txt{
+	margin-bottom: 0.5rem;
+}
+
+.work_list_child{
+	display: flex;
+	justify-content: start; 
+	align-items: start;
+	margin-top: 1rem;
+}
+
+.work_list_child p{
+	margin-left: 0.5rem;
+}

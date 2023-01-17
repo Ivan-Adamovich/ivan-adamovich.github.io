@@ -1,0 +1,34 @@
+.skills{
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+	padding-top: 3rem;
+}
+
+.skills_content{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.skills_img{
+	width: 30%;
+}
+
+.skills_list{
+	border: 1px solid var(--white);
+	border-radius: 1rem;
+	padding: 2rem;
+	width: 30%;
+}
+
+.skills_list_child{
+	display: flex;
+	justify-content: start; 
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.skills_list_child p{
+	margin-left: 0.5rem;
+}
