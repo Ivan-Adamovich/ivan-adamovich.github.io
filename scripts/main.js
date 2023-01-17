@@ -39,12 +39,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('scroll', () => {
         let scrollTopPosition = document.documentElement.scrollTop;
-        if (scrollTopPosition < oldScrollTopPosition && scrollTopPosition != 0){ //вверх
+        if (scrollTopPosition < oldScrollTopPosition && scrollTopPosition != 0){
             navigation.style.top = '-100px';
             navigation.style.position = 'fixed';
             navigation.style.top = '0';
             
-        } else if (scrollTopPosition > oldScrollTopPosition && scrollTopPosition > 90){ //вниз
+        } else if (scrollTopPosition > oldScrollTopPosition && scrollTopPosition > 90){
             navigation.style.top = '-100px';
             menuClose();
         } else {
