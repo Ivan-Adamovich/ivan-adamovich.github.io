@@ -33,6 +33,25 @@ window.addEventListener('DOMContentLoaded', () => {
         openMenuBtn.style.display = 'block';
         closeMenuBtn.style.display = 'none';
     }
+   
+    const navigation = document.querySelector('.nav');
+    let oldScrollTopPosition = 0;
+
+    document.addEventListener('scroll', () => {
+        let scrollTopPosition = document.documentElement.scrollTop;
+        if (scrollTopPosition < oldScrollTopPosition && scrollTopPosition != 0){ //вверх
+            navigation.style.top = '-100px';
+            navigation.style.position = 'fixed';
+            navigation.style.top = '0';
+            
+        } else if (scrollTopPosition > oldScrollTopPosition && scrollTopPosition > 90){ //вниз
+            navigation.style.top = '-100px';
+            menuClose();
+        } else {
+            navigation.style.position = 'absolute';
+        }
+        oldScrollTopPosition = scrollTopPosition;
+    })
 
     const images = document.querySelectorAll('.my_photo');
     const sliderLine = document.querySelector('.slider_line');
