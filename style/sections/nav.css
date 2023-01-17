@@ -1,8 +1,9 @@
 nav{
-	position: relative;
+	position: absolute;
 	width: 100%;
 	background-color: var(--black);
 	z-index: 1000;
+	transition: all 0.2s linear;
 }
 
 .nav-bar{
