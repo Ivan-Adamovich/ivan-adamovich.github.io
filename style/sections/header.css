@@ -3,4 +3,5 @@
 	border-radius: 1em;
 	padding: 4rem 0;
 	color: var(--black);
+	min-height: 100vh;
 }
